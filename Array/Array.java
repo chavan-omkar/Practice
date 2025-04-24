@@ -1,0 +1,115 @@
+public class Array{
+    /*
+    ******************** Find the Min Value *****************
+    This program finds the min value from an given array
+    */
+
+   /*  
+    public static void main(String[] args){
+       int arr[] ={10, 20, 5, 30, 15, 25};
+     int minValue = arr[0];
+       for(int i =0;i < arr.length;i++){
+        if(arr[i] < minValue){
+            minValue = arr[i];
+        }
+       }
+       System.out.println ("Minimum vlue from the given array is : " + minValue);
+       }
+
+
+
+       /*
+    ******************** Find the Max Value *****************
+    This program finds the Max value from an given array
+    */
+
+     /*
+    public static void main(String[] args){
+       int arr[] ={10, 20, 5, 30, 15, 25};
+     int maxValue = arr[0];
+       for(int i =1;i < arr.length;i++){
+        if(arr[i] > maxValue){
+            maxValue = arr[i];
+        }
+       }
+       System.out.println ("Maximum vlue from the given array is : " + maxValue);
+       }
+        
+        */
+
+
+/* ******************** Find the 2nd Max Value *****************
+    This program finds the 2nd Max value from an given array
+
+ public static void main(String[] args){
+  int[] numbers = {10,24,130,15,67,37};
+  int largestValue = numbers[0];
+  int secondLargestValue = -1;
+
+  for(int i=1;i<numbers.length;i++){
+
+    if(numbers[i] > largestValue){
+      largestValue = numbers[i];
+    }
+
+    if(numbers[i] > secondLargestValue && numbers[i] < largestValue){
+secondLargestValue = numbers[i];
+    }
+  }
+  System.out.println("The 2nd largestValue from the array is : " + secondLargestValue);
+ }
+    }
+    
+*/    
+
+/*
+ ******************** Find if the array is sorted or not *****************
+     This program finds if the array is sorted or not from an given array
+
+    
+      public static void main(String[]args){
+        int[]arr = {3,5,6,3,4};
+        isSortedArray(arr);
+      }
+
+      public static boolean isSortedArray(int[]arr){
+        for(int i=1;i<arr.length;i++){
+          if(arr[i]>=arr[i-1]){
+
+          }else{
+            System.out.print("The given array is not sorted");
+          return false;
+          }
+        }
+        System.out.print("The given array is sorted");
+        return true;
+      }
+
+     */
+
+    /* ******************** Remove duplicates from the Array  *****************
+      This program removes duplicates from the given Array
+
+     public static void main(String[] args){
+      int[] arr = {1,1,2,2,2,3,3};
+
+      int i=0;
+      for(int j=1;j<arr.length;j++){
+        if(arr[i] != arr[j]){
+          i++;
+          arr[i]=arr[j];
+          
+        }
+      }
+      i++;
+      for(int k=0;k<i;k++){
+      System.out.print(arr[k] + " ");
+      }
+     }
+
+
+*/
+
+
+
+    }
